@@ -5,7 +5,7 @@ from mcp.types import ToolAnnotations
 from massive import RESTClient
 from importlib.metadata import version, PackageNotFoundError
 from dotenv import load_dotenv
-from .formatters import json_to_csv
+from mcp_massive.formatters import json_to_csv
 
 from datetime import datetime, date
 
