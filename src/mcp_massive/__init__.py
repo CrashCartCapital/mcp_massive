@@ -1,7 +1,7 @@
 import os
 from typing import Literal
 from dotenv import load_dotenv
-from .server import run
+from mcp_massive.server import run
 
 # Load environment variables from .env file if it exists
 load_dotenv()
