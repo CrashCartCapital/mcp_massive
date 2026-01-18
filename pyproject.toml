@@ -8,6 +8,7 @@ dependencies = [
     "mcp[cli]>=1.15.0",
     "massive>=2.0.1",
     "python-dotenv>=1.2.0",
+    "fastmcp>=2.0.0",
 ]
 [[project.authors]]
 name = "Massive"

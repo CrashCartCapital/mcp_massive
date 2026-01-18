@@ -1,6 +1,6 @@
 import os
 from typing import Optional, Any, Dict, Union, List, Literal
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 from mcp.types import ToolAnnotations
 from massive import RESTClient
 from importlib.metadata import version, PackageNotFoundError
